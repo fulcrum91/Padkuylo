@@ -1,0 +1,408 @@
+@media screen and (min-width: 320px) {
+    ul {
+        margin-left: 0;
+        padding-left: 0; }
+    ul li {
+        list-style-type: none; }
+    .navbar-default {
+        box-shadow: none;
+        background-color: white;
+        background-image: none;
+        border: none; }
+    .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+        background-color: orange;
+        color: white; }
+    .navbar-brand, .navbar-brand:active, .navbar-brand:hover, .navbar-brand:visited {
+        padding: 10px 15px 10px 30px;
+        background-color: orange;
+        color: white; }
+    .navbar {
+        margin-bottom: 0; }
+    .navigate {
+        color: white;
+        font-family: "P T Sans";
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700; }
+    .logo {
+        font-weight: 400; }
+    ul.nav.navbar-nav li a {
+        color: #b2b2b2;
+        font-family: "P T Sans";
+        font-size: 18px;
+        font-weight: 400; }
+    ul.nav.navbar-nav.navbar-right li a {
+        color: orange;
+        font-family: "P T Sans";
+        font-size: 18px;
+        font-weight: 400;
+        padding: 14px; }
+    ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li a:visited, ul.nav.navbar-nav.navbar-right li a:active {
+        padding: 14px;
+        border-bottom: 2px solid orange; }
+    #myCarousel_1 .item {
+        background-image: url("../image/wallpaper-2394497.jpg");
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        min-height: 490px; }
+    .project-item {
+        position: relative; }
+    .info {
+        padding-top: 15px;
+        color: black;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px; }
+    .project-bmw {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: white;
+        display: inline-block;
+        padding: 10px 18px;
+        background-color: #d90445;
+        z-index: 10; }
+    .project-lexus {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: white;
+        display: inline-block;
+        padding: 10px 18px;
+        background-color: #000;
+        z-index: 10; }
+    .project-audi {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: white;
+        display: inline-block;
+        padding: 10px 18px;
+        background-color: #58b600;
+        z-index: 10; }
+    .project-opel {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: white;
+        display: inline-block;
+        padding: 10px 18px;
+        background-color: #1a54e7;
+        z-index: 10; }
+    .project-ford {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: white;
+        display: inline-block;
+        padding: 10px 18px;
+        z-index: 10;
+        background-color: #8200b2; }
+    .outer-box {
+        height: auto;
+        display: block;
+        position: relative; }
+    .outer-box .inner-box {
+        text-align: center;
+        background: #c1d697;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding: 0;
+        transition: opacity .5s; }
+    .outer-box .inner-box a, .outer-box .inner-box a:hover, .outer-box .inner-box a:visited {
+        color: crimson;
+        font-size: 18px; }
+    .outer-box:hover .inner-box {
+        opacity: 1;
+        transition: opacity .5s; }
+    section.projects ul li {
+        margin: 20px 0 20px 0; }
+    .sign-up {
+        padding: 40px 0;
+        text-align: center;
+        background-image: url("../image/wallpaper-2394497.jpg");
+        background-position: center center;
+        background-size: cover;
+        text-align: center; }
+    .form-control:focus {
+        border-color: orange;
+        box-shadow: inset 0 1px 1px orange, 0 0 8px orange; }
+    div.inner-box-2 {
+        text-align: center;
+        color: white;
+        font-family: "P T Serif";
+        font-weight: 400; }
+    div.inner-box-2 h4 {
+        font-size: 18px; }
+    div.inner-box-2 p {
+        font-size: 12px; }
+    footer {
+        text-align: center;
+        color: #a7acbc;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        line-height: 36px; }
+    .site, .site:hover, .site:visited, .site:focus {
+        text-align: center;
+        color: #a7acbc;
+        font-family: "Proxima Nova";
+        font-size: 19px;
+        line-height: 36px;
+        font-weight: 600; }
+    .form {
+        width: 240px;
+        margin-left: 40px;
+        background-color: orange;
+        padding: 5px 10px;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 18px;
+        /* Firefox 19+ */
+        /* Firefox 18- */ }
+    .form ::-webkit-input-placeholder {
+        text-align: center;
+        color: #424147;
+        font-family: "Century Gothic";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px; }
+    .form ::-moz-placeholder {
+        color: #424147;
+        text-align: center;
+        font-family: "Century Gothic";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px; }
+    .form :-moz-placeholder {
+        color: #424147;
+        text-align: center;
+        font-family: "Century Gothic";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px; }
+    .form :-ms-input-placeholder {
+        color: #424147;
+        text-align: center;
+        font-family: "Century Gothic";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px; }
+    ul.category {
+        text-align: left;
+        margin-left: 50px; }
+    ul.category li {
+        padding: 5px; }
+    ul.category li:before {
+        content: "\f1b9";
+        font-family: FontAwesome;
+        color: orange;
+        padding-left: 30px;
+        margin-right: 15px; }
+    ul.category li a, ul.category li a:hover, ul.category li a:focus {
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600; }
+    .button-modal {
+        color: white;
+        background-color: orange;
+        font-size: 15px;
+        margin-left: 100px;
+        padding: 12px;
+        border: 1px solid red; }
+    .top, .news {
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px;
+        border: 3px solid orange;
+        color: orange; }
+    .top a, .top a:hover, .top a:focus, .news a, .news a:hover, .news a:focus {
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600; }
+    ul.top-ul {
+        text-align: center; }
+    ul.top-ul li {
+        padding: 5px; }
+    ul.top-ul li a, ul.top-ul li a:hover, ul.top-ul li a:focus {
+        padding-left: 30px;
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600; }
+    .manufacture {
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px;
+        border: 3px solid orange;
+        color: orange; }
+    input[type="number"], input[type="text"], input[type="email"] {
+        color: black;
+        text-align: center;
+        width: 220px; }
+    input[type="submit"] {
+        color: red;
+        font-family: "Century Gothic";
+        font-size: 17px;
+        font-weight: 400;
+        padding: 10px 20px;
+        border: none;
+        background-color: white;
+        border-bottom: 3px solid red;
+        border-radius: 50px 50px; }
+    .auto {
+        margin-top: 40px; }
+    footer {
+        background-color: #262829; }
+    footer h2 {
+        color: orange;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase; }
+    footer p {
+        color: #838b8c;
+        font-family: Domine;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px; }
+    footer a, footer a:active, footer a:visited {
+        color: #838b8c;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase; }
+    .copy {
+        color: #838b8c;
+        font-family: Domine;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-top: 27px;
+        border-top: 1px solid #323334; }
+    #mc_embed_signup .mc-field-group input[type="email"] {
+        display: inline-block;
+        width: 80%;
+        border-radius: 50px;
+        background-color: #323334;
+        border: 1px solid #323334;
+        color: white; }
+    #mc_embed_signup .mc-field-group input[type="submit"] {
+        display: inline-block;
+        border-radius: 50px;
+        margin-left: -60px;
+        height: 54px;
+        width: 40%;
+        color: white;
+        font-family: Montserrat;
+        font-size: 15px;
+        line-height: normal;
+        text-transform: uppercase;
+        background-color: orange; } }
+
+@media screen and (min-width: 460px) {
+    section.projects ul li:first-child {
+        margin: 0; }
+    section.projects ul li {
+        margin: 20px 0 20px 25px; }
+    .navbar-brand, .navbar-brand:active, .navbar-brand:hover, .navbar-brand:visited {
+        padding: 10px 35px 10px 55px;
+        background-color: orange;
+        color: white; }
+    .form {
+        width: 280px;
+        margin-left: 80px;
+        background-color: orange;
+        padding: 5px 10px;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 20px; }
+    ul.category {
+        margin-left: 120px; }
+    ul.top-ul li a, ul.top-ul li a:hover, ul.top-ul li a:focus {
+        padding-left: 0; }
+    #mc_embed_signup .mc-field-group input[type="email"] {
+        display: inline-block;
+        width: 70%;
+        border-radius: 50px;
+        background-color: #323334;
+        border: 1px solid #323334;
+        color: white; } }
+
+@media screen and (min-width: 768px) {
+    section.projects ul li {
+        margin: 20px 0 20px 0; }
+    .position {
+        margin: 40px 0 0px 150px; }
+    .navbar-form .form-control {
+        width: 15px; }
+    input[type="search"] {
+        width: 15px;
+        padding-left: 10px;
+        color: black; }
+    input[type="search"]:hover {
+        background-color: #fff; }
+    input[type="search"]:focus {
+        width: 130px;
+        padding-left: 32px;
+        color: black;
+        background-color: lightyellow; }
+    input[type=search] {
+        background: #ededed url(http://webdesignerwall.com/demo/expandable-search-form/images/search-icon.png) no-repeat 9px center;
+        border: solid 1px #ccc;
+        padding: 9px 10px 9px 32px;
+        width: 55px;
+        border-radius: 10em;
+        transition: all .5s; }
+    ul.category {
+        margin-left: 0px; }
+    ul.category li {
+        padding: 5px; }
+    ul.category li:before {
+        padding-left: 10px;
+        margin-right: 15px; }
+    ul.category li a, ul.category li a:hover, ul.category li a:focus {
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600; }
+    .form {
+        width: 360px;
+        margin-left: 190px; }
+    .form label {
+        display: block; }
+    .form label.gender {
+        display: inline; } }
+
+@media screen and (min-width: 960px) {
+    .copy {
+        color: #838b8c;
+        font-family: Domine;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-top: 27px;
+        border-top: 1px solid #323334;
+        text-align: center; } }
+
+@media screen and (min-width: 1220px) {
+    .position {
+        margin-left: 0px;
+        float: right; }
+    .info {
+        font-size: 20px; }
+    .form {
+        width: 420px;
+        margin-left: 370px; } }

@@ -1,0 +1,62 @@
+{{template "header"}}
+<section class="sign-up">
+    <div class="container">
+        <div class="row">
+            <div class="form">
+                <form method="POST">
+                    <ul>
+                        <li>
+                            <label for="firstName">login</label>
+                            <input onblur="javascript: validateName(); return false;" type="text" id="firstName" name="first" placeholder="Your login">
+                            <p id="error"></p>
+                            <p id="error1"></p>
+                        </li>
+                        <li>
+                            <label for="lastName">Email</label>
+                            <input onblur="javascript: validateEmail(); return false;" type="text" id="lastName" name="last">
+                        </li>
+
+                    </ul>
+
+                    <br>
+
+                    <br>
+                    <label for="sub">Subscribed</label>
+                    <input type="checkbox" id="sub" name="subscribe">
+                    <br>
+                    <input type="submit">
+                </form>
+                <!--<form method="post">
+                    <h2>Sign up</h2>
+                    <ul>
+
+                        <li>
+                            <label for="lastName">E-mail</label>
+                            <input onblur="javascript: validateEmail(); return false;" type="email" name="email" id="lastName" placeholder="Your e-mail">
+                            <p id="erroremail"></p>
+                        </li>
+                        <li>
+                            <label for="pass">Password</label>
+                            <input  type="text" name="pass" id="pass" placeholder="Your password">
+                        </li>
+                        <li>
+                            Gender:
+                            <input type="radio" name="gender" id="man">
+                            <label class="gender" for="man">man </label>
+                            <input type="radio" name="gender" id="women">
+                            <label class="gender" for="women"> female</label>
+                        </li>
+                        <li>
+                            <label for="age">Age</label>
+                            <input type="number" min="0" max="100" step="1" name="age" id="age" placeholder="your age">
+                        </li>
+                    </ul>
+                    <p><input id="submit"  type="submit" value="sign up"></p>
+                </form>-->
+            </div>
+        </div>
+    </div>
+</section>
+<h1>First: {{.FirstName}}</h1>
+<h1>Last: {{.LastName}}</h1>
+{{template "footer"}}
